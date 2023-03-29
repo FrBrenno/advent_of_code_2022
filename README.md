@@ -97,7 +97,7 @@ In order to practice programming and to be challenged, I decided to solve all th
     - PART I:
         - Go through the list analysing a sublist of four element
         - To verify if it is a marker: is_marker
-        - if it is a marker, there is no repeated characters
+            - if it is a marker, there is no repeated characters
             - we can create a set of this list because it will only contain one time each character
             - if the size of the size is the same as the size of the list => All characters are differents
         - The index found is for the first element in the sublist. Meanwhile the index needed in the answer if the index of the last element => just add four to it.
