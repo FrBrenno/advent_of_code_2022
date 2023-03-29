@@ -1,7 +1,7 @@
 # Advent of Code 2022 - BFR
 
 In order to practice programming and to be challenged, I decided to solve all the puzzles of the advent of code 2022 (I know I am late). 
-Calorie Counting
+
 # Report
 
 ## DAY 1 - Calorie Counting 
