@@ -82,11 +82,25 @@ Calorie Counting
 
 | Criteria | Score | Comments |
 | :---: | :---: | :---: |
-| Difficulty | ?/10 | |
-| Technical | ?/10 | |
-| Fun | ?/10 | |
-| Tries |  |  |
-| Time spent | ?h| |
+| Difficulty | 1/10 | Not difficult at all, just need to go through list |
+| Technical | 1/10 | Nothing different of the basics |
+| Fun | 3/10 | too simple/easy |
+| Tries | 1 | Oh yeah baby |
+| Time spent | 30 min| |
 
 #### How to solve
 
+1. Parse the input file
+    - The input is a single string
+    - Store each character of the string a list
+2. Search for the marker
+    - PART I:
+        - Go through the list analysing a sublist of four element
+        - To verify if it is a marker: is_marker
+        - if it is a marker, there is no repeated characters
+        - we can create a set of this list because it will only contain one time each character
+        - if the size of the size is the same as the size of the list => All characters are differents
+        - The index found is for the first element in the sublist. Meanwhile the index needed in the answer if the index of the last element => just add four to it.
+    - PART II:
+      - The same thing but instead of a sublist of size 4, it is size 14.
+      - So, the function that searches for the marker may be modified to take into account how much distinct characters is needed.
