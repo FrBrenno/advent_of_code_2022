@@ -1,4 +1,4 @@
-"""Adventure of Code 2022 - DAY 3
+"""Adventure of Code 2022 - DAY 3 - Rucksack Reorganization
 Find the item type that appears in both compartments of each rucksack.
 What is the sum of the priorities of those item types?
 
@@ -9,9 +9,9 @@ What is the sum of the priorities of those item types?
 
 def get_priority(character):
     if (character.islower()):
-        return ord(character) - ord('a') + 1
+        return int(ord(character) - ord('a') + 1)
     elif (character.isupper()):
-        return ord(character) - ord('A') + 27
+        return int(ord(character) - ord('A') + 27)
 
 
 with open("./data/input_3.txt") as input:

@@ -1,4 +1,4 @@
-"""Adventure of Code - DAY 2
+"""Adventure of Code - DAY 2 - Rock Paper Scissors
 First Column is your opponent choice
 Second Column is your choice
 What would your total score be if everything goes exactly according to your strategy guide?

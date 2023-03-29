@@ -1,4 +1,4 @@
-""" Advent of Code 2022 - DAY 4
+""" Advent of Code 2022 - DAY 4 - Camp Cleanup
 In how many assignment pairs does one range fully contain the other?
 """
 
